@@ -1,0 +1,27 @@
+Step,Dataset,Action,Obs_Before,Obs_After,Obs_Affected,Funds_Before,Funds_After,Note
+1,Factors,Load FF3 + momentum monthly (inner join on month),1203,1197,6,,,1927-01 to 2026-09
+2,Factors,Missing-value codes (-99.99 / -999) and NaN rows dropped,1197,1197,0,,,0 coded values found
+3,Factors,Converted from percent to decimal,1197,1197,0,,,
+4,Factors,Duplicate months dropped,1197,1197,0,,,
+5,Fund returns,Load Yahoo monthly fund panel (adjusted-close total returns),26803,26803,0,103.0,103.0,100 active + 3 benchmark funds
+6,Fund returns,Implausible monthly returns (< -50% or > 100%) set to missing as data errors,26803,26803,2,103.0,103.0,LGPSX 2024-10 -75.2%; OTPSX 2024-10 -75.3%
+7,Fund returns,Fund-months with missing return dropped (no filling/interpolation),26803,26801,2,103.0,103.0,
+8,Fund returns,"Duplicate (Ticker, Month) rows dropped",26801,26801,0,103.0,103.0,
+9,Fund returns,Extra share classes of the same SEC fund series dropped (keep the class with the longest history),26801,26801,0,103.0,103.0,none: one class per series
+10,Fund returns,Index funds labelled 'Active' removed,26801,25925,876,103.0,99.0,IRLAX (Index fund: Voya Russell Large Cap Growth Index Portfolio); SWLGX (Index fund: Schwab US Large-Cap Growth Index); OTPSX (Index fund: ProFunds NASDAQ-100); LGPSX (Index fund: ProFunds Large Cap Growth (tracks S&P 500 Growth))
+11,Fund returns,Funds with no expense ratio dropped,25925,25925,0,99.0,99.0,
+12,Fund returns,Merged with FF3 + momentum factors (months without factors dropped),25925,25925,0,99.0,99.0,
+13,Fund returns,Benchmark index funds moved to their own file (remaining panel = active funds only),25925,25022,903,99.0,96.0,"VFIAX, VSMAX, VVIAX"
+14,Fund returns,"Zero expense-ratio funds FLAGGED, not dropped (Fidelity Series funds: only sold to other Fidelity funds)",25022,25022,301,96.0,96.0,"FAOFX, FVWSX"
+15,Fund returns,Outliers FLAGGED (pooled excess return outside 1%/99% percentiles: -13.4% / 12.9%); NOT winsorized - real market events,25022,25022,502,96.0,96.0,
+16,Fund returns,Funds with >= 120 months FLAGGED as eligible for split-half persistence,25022,25022,1139,96.0,96.0,83 eligible funds; Obs_Affected = fund-months of ineligible funds
+17,Benchmark index funds,Kept months where all three Vanguard index funds have returns,301,301,0,3.0,3.0,2000-12 to 2025-12
+18,SEC flows,Load SEC N-PORT monthly flows,459,459,0,7.0,7.0,"Funds in SEC selection without any flow rows: AGIFX, BIOIX, SGRHX"
+19,SEC flows,"Duplicate (Ticker, Month) rows dropped (keep latest filing)",459,459,0,7.0,7.0,
+20,SEC flows,Rows whose month ordering could not be validated dropped,459,459,0,7.0,7.0,
+21,SEC flows,Rows with missing net flow dropped,459,459,0,7.0,7.0,
+22,SEC flows,Funds not in the cleaned active sample dropped,459,405,54,7.0,6.0,IRLAX
+23,SEC TNA,"Duplicate, missing or non-positive TNA rows dropped",172,172,0,8.0,8.0,
+24,SEC TNA,Funds not in the cleaned active sample dropped,172,149,23,8.0,7.0,
+25,SEC flows,Monthly net flow scaled by most recent prior quarter-end TNA (class-level flow / series-level TNA: approximate),405,405,15,6.0,6.0,Obs_Affected = months with no prior TNA (flow % left missing)
+26,SEC TNA,Quarterly implied flows: kept consecutive quarters (3-month gap) with fund returns for every month,142,137,5,7.0,7.0,
