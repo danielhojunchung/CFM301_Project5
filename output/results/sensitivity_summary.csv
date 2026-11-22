@@ -1,0 +1,10 @@
+Alternative,N_Funds,N_Justified,Share_Justified,Mean_Net_Alpha,N_Verdicts_Changed,Changed_to_Justified,Changed_to_Not
+"BASE: full sample, Carhart",96,43,0.447917,-0.00229921,0,0,0
+Rolling 36m (mean alpha),96,40,0.416667,-0.00397449,19,8,11
+Sub-period 2001-01 to 2013-06,63,16,0.253968,-0.01269,19,5,14
+Sub-period after 2013-06,63,19,0.301587,-0.00343046,18,6,12
+Winsorized 1%/99% (-13.4%/12.9%),96,53,0.552083,0.000912751,10,10,0
+Post-2000-12 sample,96,36,0.375,-0.00395804,11,2,9
+Benchmark: CAPM,96,42,0.4375,-0.00173004,17,8,9
+Benchmark: FF3,96,46,0.479167,-0.000284561,7,5,2
+Benchmark: index funds,96,60,0.625,0.00675546,27,22,5

@@ -1,0 +1,4 @@
+Class,N_Funds,Share
+"Skill, investors keep alpha (net >= 0)",43,0.447917
+"Skill, fee absorbs it (gross > 0 > net)",27,0.28125
+No skill (gross alpha <= 0),26,0.270833

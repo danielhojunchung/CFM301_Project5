@@ -1,0 +1,97 @@
+Ticker,Fund_Name,Annual_Fee,Pctile_in_Active_Universe,Pctile_in_Our_Sample
+FAOFX,Fidelity Advisor Series Growth Opps,0,1.51515,1.5625
+FVWSX,Fidelity Series Opportunistic Insights,0,1.51515,1.5625
+MEYWX,Manning & Napier Equity Series W,0.0005,1.6317,3.125
+VWUSX,Vanguard US Growth Investor,0.0035,2.91375,4.16667
+MIGNX,MFS Massachusetts Inv Gr Stk R6,0.0037,3.2634,5.20833
+BRWUX,MFS Blended Research Growth Eq R4,0.0039,3.61305,6.25
+AMCFX,American Funds AMCAP F-2,0.0044,5.01166,7.29167
+FGDKX,Fidelity Growth Discovery K,0.0046,6.06061,8.33333
+FOKFX,Fidelity OTC K6,0.005,6.99301,9.375
+MFEKX,MFS Growth R6,0.0052,7.69231,10.4167
+ATVPX,Alger 35 Z,0.0055,8.62471,11.9792
+ILGRX,Nomura Large Cap Growth R6,0.0055,8.62471,11.9792
+LGRNX,Loomis Sayles Growth N,0.0056,9.44056,13.5417
+VCULX,VALIC Company I Growth,0.0061,14.3357,14.5833
+BAFWX,Brown Advisory Sustainable Growth I,0.0062,15.7343,15.625
+MLRSX,NYLIM Winslow Large Cap Growth Class R6,0.0063,16.8998,16.6667
+VCBCX,VALIC Company I Systematic Growth,0.0064,18.648,18.2292
+FMAGX,Fidelity Magellan,0.0064,18.648,18.2292
+FBGKX,Fidelity Blue Chip Growth K,0.0065,18.648,20.8333
+USAUX,Victory Aggressive Growth,0.0065,18.648,20.8333
+QGRPX,UBS US Quality Growth At Rsnbl Prc P,0.0065,18.648,20.8333
+PRGFX,T. Rowe Price Growth Stock,0.0066,22.3776,23.4375
+FICEX,Frost Growth Equity Inst,0.0066,22.3776,23.4375
+PGFIX,Virtus Silvant Focused Growth Inst,0.0067,24.1259,25
+TEEFX,T. Rowe Price Tax-Efficient Equity I,0.0068,24.1259,26.0417
+FDGRX,Fidelity Growth Company Fund,0.0069,27.1562,27.6042
+FTQGX,Fidelity Focused Stock,0.0069,27.1562,27.6042
+NICSX,Nicholas,0.007,27.1562,30.7292
+CADRX,Columbia Large Cap Growth Opp Inst2,0.007,27.1562,30.7292
+SGRHX,Allspring Growth R6,0.007,27.1562,30.7292
+TRBCX,T. Rowe Price Blue Chip Growth,0.007,27.1562,30.7292
+FOCKX,Fidelity OTC K,0.0071,29.3706,33.3333
+MGHRX,Morgan Stanley Inst Growth IR,0.0073,33.1002,34.8958
+BAFGX,Brown Advisory Growth Equity Inst,0.0073,33.1002,34.8958
+LGILX,Schwab Large Cap Growth Opportunities,0.0074,34.1492,37.5
+FTRNX,Fidelity Trend,0.0074,34.1492,37.5
+FCNTX,Fidelity Contrafund,0.0074,34.1492,37.5
+DRYQX,BNY Mellon Research Growth Y,0.0075,35.7809,39.5833
+FUNYX,Victory Pioneer Fundamental Growth Y,0.0076,36.5967,40.625
+HNASX,Homestead Growth,0.0079,38.9277,41.6667
+FIFNX,Fidelity Founders,0.008,40.676,43.2292
+LFGTX,Lord Abbett Focused Growth R5,0.008,40.676,43.2292
+PNOPX,Putnam Sustainable Leaders A,0.0081,40.676,44.7917
+JAGRX,Janus Henderson VIT Research Instl,0.0082,42.6573,45.8333
+JNRFX,Janus Henderson Research D,0.0083,43.3566,46.875
+JHSGX,JHancock U.S. Growth R4,0.0084,43.9394,47.9167
+USAAX,Victory Growth,0.0088,48.1352,48.9583
+SDGAX,DWS Capital Growth A,0.0089,49.3007,50
+GGLIX,abrdn US Sustainable Leaders Instl,0.009,49.3007,53.125
+BUFGX,Buffalo Growth,0.009,49.3007,53.125
+TGWFX,Transamerica Large Growth R4,0.009,49.3007,53.125
+TGCNX,TCW Concentrated Large Cap Growth N Cl,0.009,49.3007,53.125
+JGRRX,JAG Large Cap Growth R,0.009,49.3007,53.125
+ALVOX,Alger Capital Appreciation Ptfl I-2,0.0094,55.4779,56.25
+ASMMX,Invesco Summit A,0.0097,57.2261,57.8125
+PJFAX,PGIM Jennison Growth A,0.0097,57.2261,57.8125
+SSGFX,Saturna Growth,0.0098,57.9254,59.375
+DFDPX,DF Dent Premier Growth Investor,0.0099,59.0909,62.5
+IMANX,Iman K,0.0099,59.0909,62.5
+SWLSX,Schwab Large-Cap Growth,0.0099,59.0909,62.5
+MAPLX,Morgan Stanley Inst Advantage L,0.0099,59.0909,62.5
+BGRWX,Barrett Growth Retail,0.0099,59.0909,62.5
+RPXIX,RiverPark Large Growth Institutional,0.01,60.8392,66.6667
+SNIGX,Sit Large Cap Growth,0.01,60.8392,66.6667
+RWGIX,Wedgewood Institutional,0.01,60.8392,66.6667
+HCAIX,Harbor Capital Appreciation Inv,0.0101,61.655,68.75
+FGSRX,Franklin Growth R,0.0103,62.4709,69.7917
+BIOIX,Baron Opportunity Instl,0.0105,65.035,70.8333
+BLYAX,American Beacon Man Lg Cp Growth A,0.0109,66.8998,71.875
+AGIFX,Alger Responsible Investing I,0.011,66.8998,72.9167
+USGLX,JHancock U.S. Global Leaders Growth A,0.0111,68.4149,73.9583
+CHASX,Chase Growth N,0.0115,70.8625,75
+MBCGX,MassMutual Blue Chip Growth A,0.0116,71.5618,76.5625
+CPOAX,Morgan Stanley Insight A,0.0116,71.5618,76.5625
+IAFMX,Emerald Large Cap Focused Inv,0.0117,72.3776,78.6458
+IEOPX,Voya Large Cap Growth Port A,0.0117,72.3776,78.6458
+MFOCX,Marsico Focus,0.0118,72.3776,80.2083
+OALGX,Optimum Large Cap Growth A,0.0119,73.7762,81.25
+RIVRX,Riverbridge Growth Investor,0.0121,75.0583,82.2917
+WSACX,Wellington Shields All-Cap Instl,0.0122,75.5245,83.3333
+SAGAX,Virtus Zevenbergen Innovative Gr Stk A,0.0125,77.3893,84.8958
+PLIEX,Plumb Equity Institutional,0.0125,77.3893,84.8958
+MGRIX,Marsico Growth,0.0128,78.4382,86.9792
+DAFGX,Dunham Focused Large Cap Growth A,0.0128,78.4382,86.9792
+GGCAX,Gabelli Growth A,0.0133,80.4196,88.5417
+NQCFX,NorthQuest Capital,0.014,81.9347,89.5833
+HSUAX,Rational Dynamic Brands A,0.0143,83.2168,90.625
+TLGAX,Timothy Plan Large/Mid Cap Growth A,0.0144,83.5664,91.6667
+MYIFX,Monetta Young Investor Growth,0.0148,84.4988,92.7083
+BFONX,Biondo Focus Investor,0.015,85.3147,93.75
+GLCCX,Goldman Sachs Large Cap Gr Insghts C,0.0165,88.2284,94.7917
+ALCFX,Alger Focus Equity C,0.0174,91.2587,95.8333
+TBDCX,PGIM Jennison Diversified Growth C,0.0179,92.8904,96.875
+SLCGX,Saratoga Large Capitalization Growth I,0.0183,94.289,97.9167
+TGFRX,Tanaka Growth,0.0195,96.8531,98.9583
+SGFCX,Sparrow Growth C,0.0228,98.951,100
